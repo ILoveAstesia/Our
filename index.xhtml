@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--Astesia-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+
+		<title>实验一：个博客网站</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="liuyuping" />
+		<meta name="keywords" content="博客网站"/>
+		<meta name="description" content="博客网站"/>
+		<link type="text/css" rel="stylesheet" href="./css/framemian.css"/>
+		<link type="text/css" rel="stylesheet" href="./css/details.css"/>
+		<link type="text/css" rel="stylesheet" href="./css/idex.css"/>
+
+		<script type="text/javascript" src="js/javascript.js"></script>
+
+	</head>
+
+	<body>
+		
+		<div id="mycanvas2"><!--前端全局-->
+			
+			<div class="heard">
+				<div id="mycanvas">
+					<div class="heardtop">
+						<div id="f1" class="pointer">好好学习，天天向上</div>
+						<div><a href="#" >http://wwww.liuyuping.com.cn</a><a href="#">点此复制</a></div>
+					</div><!--头banner框架-->
+
+					<div class="part1"><!--/第一部分，导航栏部分位于其右下角，首页，日志等导航栏-->
+						<div class="part1format" id="mycanvas">
+							<nav class="partm1" id="navbar"><!--/导航栏部分，首页，日志等导航栏-->
+								<ul class="lcon" id="menu">
+									<li><a href="shouye.html" class="p2" target="iframe2">首页</a></li>
+									<li><a href="rizhi.html" class="p2" target="iframe2">日志</a></li>
+									<li><a class="p2" target="iframe2">相册</a></li>
+									<!--估计是为了空位
+									<li><a></a></li>
+									<li><a></a></li>
+									<li><a></a></li>
+									<li><a></a></li>
+									<li><a></a></li>
+									-->
+									<li><a class="p3 pointer" style="color: pink;" target="iframe2" onclick="document.getElementById('thefrom').style.display='block'" >登入</a></li>
+								</ul>
+							</nav>
+						</div><!--头banner画布框架-->
+					</div><!--头banner第一部分-->
+
+				</div><!--头banner画布-->
+			</div><!--头banner框架-->
+			
+			<div class="part2"><!--/第二部分，主体部分，包含左右两栏内容-->
+				<div id="mycanvas">
+					
+					<div class="leftbg" ><!--/左边部分 利用iframe标签链接导航栏-->
+						<div class="leftformat">
+						<iframe name="iframe2" src="shouye.html" width="100%" height="1570px"></iframe>
+						</div>
+					</div>
+					
+					<div class="rightbg" ><!--右边部分主题框架-->
+						<div class="rightformat">
+							<div class="list">
+							<div class="bigseg"></div>
+							<!--头像栏-->
+							<div class="avator" ><img src="img/avator.jpg" alt="头像" /></div>
+							</div>
+
+							<div class="name">昵称：<a href="#">阿姨的卡布q诺</a></div>
+
+							<div class="sayme">签名：
+							<p class="text">
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;云养猫，云养狗，行动困难患者
+							</p>
+							</div>
+
+							<!--侧边栏-->
+							<div class="content-list">
+								<div class="left-title">
+									<a href="#">导航栏</a>
+								</div>
+								
+								<div class="seg"></div><!--分割线-->
+
+								<div class="nav"><!--菜单栏导航-->
+									<!--第一侧边下拉栏-->
+									<div class="nav-menu">
+										<div class="nav-title" onclick="drop_down1()"><img src="./img/小图标1.png"/>最近更新</div><!--主标题-->
+										<div class="nav-content"><!--子标题-->
+																				<!--<a href="#">2021-3-13</a>-->
+																				<!--<a href="#">2021-3-14</a>-->
+											<nav id="submenu1">
+												<ul class="animate">
+													<li><a href="#">2021-3-13</a></li>
+													<li><a href="#">2021-3-14</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+									<!--第二侧边下拉栏-->
+									<div class="nav-menu">
+										<div class="nav-title"  onclick="drop_down2()"><img src="./img/小图标2.png"/>热门文章</div>
+										<div class="nav-content">
+											<nav id="submenu2">
+												<ul class="animate">
+													<li><a href="#">哈哈哈</a></li>
+													<li><a href="#">呃呃呃</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+									<!--第三侧边下拉栏-->
+									<div class="nav-menu">
+										<div class="nav-title" onclick="drop_down3()"><img src="./img/小图标3.png"/>友情链接</div>
+										<div class="nav-content">
+											<nav id="submenu3">
+												<ul class="animate">
+													<li><a href="#">哈哈哈</a></li>
+													<li><a href="#">呃呃呃</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div><!--右边下拉-->
+
+							</div><!--右内容栏-->
+
+						</div><!--右主体-->
+
+					</div><!--右框架-->
+					
+				</div><!--画布-->
+
+			</div><!--中间框架-->
+			
+			<!--版权-->
+
+			<div class="foot">
+					<div class="footformat">
+						<div class="f1">
+							<div class="f1A"><img src="img/logo.png" name="logo" align="right"/></div>
+							<div class="f1B">本人邮箱：3135205428@qq.com</div>
+							<div class="f1C">五岁学会说话，七岁学会走路，二十岁熟背九九乘法表</div>
+						</div>
+					<div class="f2">本网站由本站站长设计制作&nbsp;&nbsp;&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp;&nbsp;阿姨的卡布q诺</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<!--登录-->
+		
+		<div id="thefrom" class="model">
+			<form class="from1 animate2" >
+				<div class="ctop">
+					<img src="img/小图标1.png" class="avator2" alt="Avator" />
+					<span class="close" onclick="document.getElementById('thefrom').style.display='none'" title="colse the form">&times;</span>
+				</div>
+				<div class="content2">
+					<label for="uname"><b>Username</b></label>
+					<input placeholder="Enter Username" name="uname" id="uname" type="text" required="required" />
+					<label for="Password"><b>Password</b></label>
+					<input type="password" placeholder="Enter Password" name="Password" id="Password" required="required"/>
+					<button type="submit">登入</button>
+					<input type="checkbox" checked="checked" /><b style="color:white;">记住我</b>
+				</div>
+				<div class="content2 linec" style="background-color:#525961;border-radius: 10%;">
+					<span class="fpsw">Forget<a onclick="document.getElementById('thefrom2').style.display='block'" class="pointer">Password?</a></span>
+					<span class="zhuche"><a onclick="document.getElementById('thefrom3').style.display='block'" class="pointer">未注册?</a></span>
+				</div>
+				<div class="content2">
+					<button class="cancel" onclick="document.getElementById('thefrom').style.display='none'">Cancel</button>
+				</div>
+			</form>
+		</div>
+
+			<!--忘记-->
+		
+		<div id="thefrom2" class="model">
+			<form class="from2 animate2" onsubmit="return checkpassword()" action="#">
+				<div class="ctop">
+					<span onclick="document.getElementById('thefrom2').style.display='none'" class="close" title="Close">&times;</span>
+				</div>
+				<div class="content2">
+					<label for="" style="font-weight: bold;"><p>忘记密码</p></label>
+					<input placeholder="请输入您的电子邮箱" name="Email" id="Email" required="required" type="email"/>
+					<div class="linec"><input placeholder="请输入验证码" required="required" class="CAPTCHA"/><button style="width: auto;">获取验证码</button></div>
+					<input placeholder="请输入新密码" type="password" name="password" id="password" required="required"/>
+					<input placeholder="请再次输入密码" type="password" name="repassword" id="repassword" required="required"/>
+					<span id="checkresult"></span>
+				</div>
+				<div class="content2">
+					<button id="submit" type="submit" >确定</button>
+				</div>
+			</form>
+		</div>
+
+		<!--注册-->
+		
+		<div id="thefrom3" class="model">
+			<form class="from3 animate2" onsubmit="return checkpassword2()" action="#">
+				<div class="ctop">
+					<span onclick="document.getElementById('thefrom3').style.display='none'" class="close" title="Close">&times;</span>
+				</div>
+				<div class="content2">
+					<label for="username2" style="font-weight: bold;">用户名</label>
+					<input placeholder="请输入用户名" type="text" name="username2" id="username2" required="required"/>
+					<label for="" style="font-weight: bold;">密码</label>
+					<input placeholder="请输入密码" type="password" name="password2" id="password2" required="required"/>
+					<label for="" style="font-weight: bold;">确认密码</label>
+					<input placeholder="请再次输入密码" type="password" name="repassword2" id="repassword2" required="required"/>
+					<label for="Email2" style="font-weight: bold;">邮箱</label>
+					<input placeholder="请输入邮箱" type="email" name="Email2" id="Email2" required="required"/>
+					<label style="font-weight: bold;">性别</label>
+					<input id="man" type="radio" checked="checked" name="1"/>男
+					<input id="woman" type="radio" name="1"/>女
+					<label style="font-weight: bold;">年龄</label>
+					<select>
+						<option>20</option>
+						<option>21</option>
+						<option>22</option>
+						<option>23</option>
+						<option>24</option>
+						<option>25</option>
+					</select>
+				</div>
+				<div class="content2">
+					<button type="submit">注册</button>
+				</div>
+			</form>
+		</div>
+		
+
+	</body>
+</html>

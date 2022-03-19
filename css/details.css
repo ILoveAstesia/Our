@@ -1,0 +1,285 @@
+.heardtop a{
+	color: #deaa9f;
+}
+.lcon{
+	float: left;
+}
+.lcon li{
+	float: left;
+	list-style: none;
+	padding: 60px 0 0;
+}
+.lcon li a{
+	padding: 60px 30px 0;
+	background-position: center top;
+	background-repeat: no-repeat;
+	color: #525961;
+	font-size: 20px;
+	font-family: YouYuan;
+	font-weight: bold;
+	text-decoration: none;
+}
+.lcon li a:hover{
+	color: #deaa9f;
+	background: none;
+}
+.p2{
+	background-image: url(../img/雪花2.png);
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.p2:hover{
+	transform: scale(2);
+}
+.p1{
+	background-image: url(../img/雪花飘2.png);
+}
+.p3{
+	background-image: url(../img/小图标1.png);
+}
+.list{
+	line-height: 50px;/*垂直居中*/
+	text-align: center;/*水平居中*/
+	
+}
+.avator img{
+	text-align: center;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+nav.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 10px 8%;
+	background: rgba(255,255,255,0.6);
+	width: 100%;
+	display: flex;/*一个弹性盒模型*/
+	align-items: center;/*能够设置子元素的对其和空间分配方式，常用作居中设置（flex容器属性）*/
+	justify-content: space-between;
+	transition: padding 1s;
+ }
+ 
+nav.sticky ul{
+	 width: auto;
+ }
+
+ .content-list{
+ 	width:100%;
+	height: 100%;
+ 	height:auto;
+ 	background-color: #525961;
+ }
+ .left-title{
+ 	height:100px;
+ 	width: 100%;
+ }
+ /*该类>该类下的子类*/
+ .left-title>a{
+ 	display: block;/*使行级标签变为块级标签*/
+ 	width: 100%;
+ 	height: 100px;
+ 	line-height: 100px;/*垂直居中*/
+ 	text-align: center;/*水平居中*/
+ 	color: #bfaea6;
+	font-weight: bold;
+	font-family: youyuan;
+ 	text-decoration: none;
+	font-size: 40px;
+ }
+ /*分隔线*/
+ .seg{
+ 	height: 1px;
+ 	width: 100%;
+ 	background-color: black;
+ }
+ .bigseg{
+ 	height: 20px;
+ 	width: 100%;
+ 	background-color: #a9a3a5;
+ }
+ .nav{
+ 	margin: 5px 0;
+ }
+ .nav-title{
+ 	height: 100px;
+ 	width: 100%;
+ 	color: #bfaea6;
+ 	text-align: center;/*文本水平居中*/
+	font-size: 30px;
+	font-family: youyuan;
+	font-weight: bold;
+ 	line-height: 100px;/*垂直居中*/
+ 	cursor:pointer;/*当鼠标划过主标题时显示手型*/
+ }
+ .nav-content{
+ 	width: 100%;
+ 	height:100%;
+ 	background-color: #788da0;
+ 	font-size: 30px;
+	font-family: youyuan;
+ }
+ .nav-content>nav>ul>li>a{
+ 	display: block;
+ 	height: 50px;
+ 	width: 100%;
+ 	color:#CCCCCC;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+ .nav-content>nav>ul{
+	 list-style-type: noneun;
+ }
+ .nav-content>nav>ul>li>a:hover{
+ 	display: block;
+ 	height: 50px;
+ 	width: 100%;
+ 	color:#FFFFFF;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	line-height: 50px;
+ 	background-color: #bfaea6;
+ }
+ 
+.name{
+	height:30px;
+	padding: 20px;
+	text-align: left;
+	line-height: 20px;
+	font-size: 30px;
+	color: white;
+}
+.name a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: youyuan;
+	font-weight: bold;
+}
+.sayme{
+	height:auto;
+	padding: 20px;
+	text-align:left;
+	line-height: 20px;
+	font-size: 30px;
+	color: white;
+}
+
+.text{
+	margin-top: 10px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.model{
+	display: none;
+	background-color: rgba(0,0,0,0.3);
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.from1{
+	margin: 10% auto 15% auto;
+	border: solid 1px #bfaea6;
+	border-radius: 5%;
+	width: 30%;
+	background:url(../img/底部待选2.jpg);
+}
+.from2{
+	margin: 10% auto 15% auto;
+	border: solid 1px #bfaea6;
+	border-radius: 5%;
+	width: 45%;
+	background:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)),url(../img/底部待选2.jpg);
+}
+.from3{
+	margin: 10% auto 15% auto;
+	border: solid 1px #bfaea6;
+	border-radius: 5%;
+	width: 45%;
+	background:url(../img/底部待选2.jpg);
+}
+.ctop{
+	text-align: center;
+	margin: 25px 0 10px 0;
+	position: relative;
+}
+img.avator2{
+	width: 40%;
+	border-radius: 50%;
+}
+.close{
+	color: red;
+	position: absolute;
+	right: 20px;
+	top: 0;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.content2{
+	padding: 16px;
+	color:pink;
+	font-size: 25px;
+}
+input[type=text],input[type=password],input[type=email]{
+	display: inline-block;
+	width: 100%;
+	padding:12px 20px;
+	margin: 8px 0;
+	border: #bfaea6 solid 1px;
+	box-sizing: border-box;
+}
+button{
+	width: 100%;
+	margin: 10px auto 10px auto;
+	padding: 10px 14px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+button:hover{
+	opacity: 0.7;
+}
+.cancel{
+	width: auto;
+	background-color: #f44336;
+}
+.zhuche a{
+	color: #788da0;
+}
+
+.fpsw a{
+	color: #788da0;
+}
+
+.CAPTCHA{
+	display: inline-block;
+	width: 50%;
+	padding:12px 20px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border: #bfaea6 solid 1px;
+	box-sizing: border-box;
+}
+.animate2{
+	animation: animation1 0.6s;
+}
+@-webkit-keyframes animation1{
+	from{transform: scale(0);}
+	to{transform: scale(1);}
+}
+.animate li{
+	list-style-type: none;
+}
+.linec{
+	display: flex;/*一个弹性盒模型*/
+		align-items: center;/*能够设置子元素的对其和空间分配方式，常用作居中设置（flex容器属性）*/
+		justify-content: space-between;
+		}
