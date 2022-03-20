@@ -1,0 +1,52 @@
+body{
+    background:rgba(191,174,166,0.8);
+}
+
+#display_contant{
+    border-style: dashed;
+    border-radius: 50px;
+    padding: 0px;
+    
+    width:100%;
+    margin-top: 10px;
+    background:rgba(191,174,166,0.6);
+	border-radius: 25px;
+    font-size: 100%;
+    color: aliceblue;
+
+}
+
+h2{
+    text-align: center;
+    color:azure;
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+/*
+body
+{
+    margin: 20px;
+    background-image: url(../img/jin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+
+.time{
+    text-align: center;
+    font-size: 200%;
+    color: aliceblue;
+}
+
+
+
+#display_title{
+    line-height: 100px;
+    text-align: center;
+}
+
+#display_body{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}

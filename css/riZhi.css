@@ -1,0 +1,132 @@
+#main{
+    margin: 50px;
+    font-size: 100%;
+    /*background-repeat: no-repeat;
+    background-size:contain;
+    padding: 25px;
+    background-color: aqua;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%
+    background-size:contain;*/
+}
+
+body{
+    background-image: url(../img/milad-fakurian-HE1_K4_-QT8-unsplash.jpg);
+    margin: 0px;
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:rgba(191,174,166,0.6);
+
+}
+
+#menu{
+    background-image: url();
+    width: 100px;
+}
+
+#footer{
+    background-image: url();
+}
+
+#lookdiart{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.diarytile{
+    
+    width: 100%;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    padding:5px;
+    border-bottom: 1px dashed #821428;
+
+}
+
+.diaryabout{
+    width: 100%;
+    color: #821428;
+    padding: 5px;
+    text-align: right;
+    
+}
+
+.diary_list
+{    
+    /*background-image: url(../image/lone-tree-6147402.jpg);
+    margin: 20px;
+    width: 720px;
+    background-size: contain;
+    padding: 50px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%
+        margin: 50px;
+    margin-top: 50px;
+    */
+
+    padding: 50px;
+    border: #821428;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: bold;
+    color:#f5631f;
+}
+
+h4{
+    display: inline;
+    font-size: 12px;
+    font-weight: normal;
+    color: #f5631f;
+}
+
+.text{
+    height: 18px;
+    width: 200px;
+    border: #9ba4a8 1px solid;
+
+}
+
+.textarea{
+    width: 600px;
+    border: #9ba4a8 1px solid;
+}
+
+.buttom-submit{
+    width: 40px;
+    height: 18px;
+    margin-right: 10px;
+    border: 1px solid #999999;
+    background:#9ba4a8;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.help,#name,#email,#password,#link,#remember,
+
+.commentcontent{
+    margin-bottom: 5px;
+}
+
+#remember{
+    margin-left: 45px;
+}
+
+#remember span{
+    padding-bottom: 20px;
+}
+
+.commentcontent span{
+    display: block;
+    float: left;
+}
