@@ -139,32 +139,37 @@ body{
 /*中间左边白板*/
 
 .leftbg{
-
 	
-	margin: 0;
+	/*
+	margin: 0%;
+	padding: 0px 0px 0px 0px;
+	*/
+	border-radius: 25px;
+	position: relative;
 	float: left;
 	width: 75%;
-	height: 1580px;
-	padding: 0px 0px 0px 0px;
+	height: 100%;
+	
 	}
 /*中间左边白板 画布？*/
 .leftformat{
-
+	position: relative;
 	width: 100%;
 	float: left;
 }
 /*右边侧边栏目*/
 .rightbg{
 	
+	position: relative;
 	float: right;
 	width: 25%;
-	height: 1580px;
+	
 }
 /*右边侧边栏目 画布?*/
 .rightformat{
 	
 	width: 100%;
-	height: 100%;
+	height: 2000px;
 	background:linear-gradient(rgba(169,163,165,1),rgba(169,163,165,0.6));
 	word-wrap: break-word;
 	word-break: break-all;
@@ -173,6 +178,9 @@ body{
 /*底边栏目*/
 .foot{
 	
+	margin-top: 2%;
+
+	border-radius: 25px 25px 0 0;
 	
 	position: relative;
 	float: left;
