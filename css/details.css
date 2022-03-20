@@ -18,17 +18,22 @@
 	font-family: YouYuan;
 	font-weight: bold;
 	text-decoration: none;
+	
+	position: relative;
+	float: right;
 }
 .lcon li a:hover{
 	color: #deaa9f;
 	background: none;
 }
 .p2{
+	position: relative;
 	background-image: url(../img/雪花2.png);
 	cursor: pointer;
 	transition: all 0.5s;
 }
 .p2:hover{
+	
 	transform: scale(2);
 }
 .p1{
