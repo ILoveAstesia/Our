@@ -1,7 +1,8 @@
-var navbor=document.getElementById("navbar");
+	var navbor=document.getElementById("navbar");
 		var menu=document.getElementById("menu");
-		window.onscroll=function(){
-			if(window.pageYOffset >= menu.offsetTop){
+		window.onscroll=function()
+		{
+			if(window.pageYOffset >= 200){
 				navbor.classList.add("sticky");
 			}
 			else{

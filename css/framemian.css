@@ -12,6 +12,10 @@
 	
 	clear: both;
 
+	#mycanvas{
+	padding-bottom: 100%;
+}
+
 */
 
 
@@ -31,7 +35,7 @@ body{
 }
 
 
-/*给幕布和动画*/
+/*给幕布和动画 不做了 就地取材*/
 .frame{
 
 }
@@ -74,8 +78,6 @@ body{
 /*头内小框*/
 
 .part1{	
-	
-	
 
 	position: relative;
 	float: left;
@@ -108,9 +110,10 @@ body{
 /*按钮框*/
 .partm1{
 	
-	
+	position: relative;
 	float: right;
 	width: 70%;
+	
 	margin: 0 0 0 0;
 	
 }
