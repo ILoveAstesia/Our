@@ -182,10 +182,13 @@ nav.sticky ul{
 	width: 100%;
 }
 .from1{
-	margin: 10% auto 15% auto;
+	
+
+	margin: 1% auto 15% auto;
 	border: solid 1px #bfaea6;
 	border-radius: 5%;
 	width: 30%;
+	height: 85%;
 	background:url(../img/底部待选2.jpg);
 }
 .from2{
@@ -252,6 +255,7 @@ button:hover{
 	background-color: #f44336;
 }
 .zhuche a{
+	
 	color: #788da0;
 }
 
